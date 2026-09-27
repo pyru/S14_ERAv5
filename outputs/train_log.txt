@@ -1,0 +1,67 @@
+﻿dense params: 1,067,392
+[dense] step     0 train 4.2373 val 4.2359 (4s)
+[dense] step   100 train 2.5319 val 2.5188 (49s)
+[dense] step   200 train 2.3184 val 2.3259 (91s)
+[dense] step   300 train 2.1752 val 2.1946 (131s)
+[dense] step   400 train 1.9981 val 2.0657 (171s)
+[dense] step   500 train 1.8862 val 1.9915 (209s)
+[dense] step   600 train 1.7985 val 1.9427 (248s)
+[dense] step   700 train 1.7266 val 1.8583 (288s)
+[dense] step   800 train 1.6818 val 1.8304 (327s)
+[dense] step   900 train 1.6468 val 1.8008 (366s)
+[dense] step  1000 train 1.6148 val 1.7918 (405s)
+[dense] step  1100 train 1.5892 val 1.7733 (446s)
+[dense] step  1200 train 1.5672 val 1.7506 (484s)
+[upcycle-copy] val loss dense 1.75055 -> MoE at step 0 1.75055 | total/active params (6576512, 1857920)
+[upcycle-drop] val loss dense 1.75055 -> MoE at step 0 2.14211 | total/active params (6576512, 1857920)
+[dense-continued] step  1200 train 1.5672 val 1.7506 (4s)
+[dense-continued] step  1300 train 1.5475 val 1.7283 (43s)
+[dense-continued] step  1400 train 1.5296 val 1.7175 (81s)
+[dense-continued] step  1500 train 1.5277 val 1.7073 (121s)
+[dense-continued] step  1600 train 1.5054 val 1.6923 (161s)
+[dense-continued] step  1700 train 1.4964 val 1.6819 (199s)
+[dense-continued] step  1800 train 1.4845 val 1.6689 (237s)
+[dense-continued] step  1900 train 1.4757 val 1.6714 (275s)
+[dense-continued] step  2000 train 1.4662 val 1.6427 (315s)
+[dense-continued] step  2100 train 1.4541 val 1.6372 (354s)
+[dense-continued] step  2200 train 1.4431 val 1.6393 (393s)
+[moe-copy] step  1200 train 1.5672 val 1.7506 (8s) | MaxVio/layer [2.63, 0.7, 1.07, 0.29]
+[moe-copy] step  1300 train 1.5667 val 1.7460 (105s) | MaxVio/layer [0.87, 0.44, 0.42, 0.4]
+[moe-copy] step  1400 train 1.5524 val 1.7323 (200s) | MaxVio/layer [0.59, 0.14, 0.38, 0.28]
+[moe-copy] step  1500 train 1.5394 val 1.7219 (292s) | MaxVio/layer [0.4, 0.28, 0.13, 0.23]
+[moe-copy] step  1600 train 1.5142 val 1.7007 (373s) | MaxVio/layer [0.2, 0.24, 0.16, 0.21]
+[moe-copy] step  1700 train 1.4925 val 1.6822 (445s) | MaxVio/layer [0.37, 0.37, 0.28, 0.33]
+[moe-copy] step  1800 train 1.4743 val 1.6649 (522s) | MaxVio/layer [0.25, 0.21, 0.26, 0.14]
+[moe-copy] step  1900 train 1.4590 val 1.6613 (603s) | MaxVio/layer [0.16, 0.33, 0.12, 0.14]
+[moe-copy] step  2000 train 1.4449 val 1.6320 (691s) | MaxVio/layer [0.28, 0.26, 0.1, 0.19]
+[moe-copy] step  2100 train 1.4351 val 1.6226 (774s) | MaxVio/layer [0.21, 0.26, 0.11, 0.19]
+[moe-copy] step  2200 train 1.4254 val 1.6295 (861s) | MaxVio/layer [0.17, 0.25, 0.11, 0.2]
+[moe-drop] step  1200 train 2.0180 val 2.1421 (6s) | MaxVio/layer [1.5, 0.76, 0.52, 0.32]
+[moe-drop] step  1300 train 1.6196 val 1.7806 (89s) | MaxVio/layer [0.81, 0.44, 0.24, 0.26]
+[moe-drop] step  1400 train 1.5716 val 1.7422 (185s) | MaxVio/layer [0.37, 0.23, 0.16, 0.25]
+[moe-drop] step  1500 train 1.5494 val 1.7199 (277s) | MaxVio/layer [0.17, 0.2, 0.41, 0.09]
+[moe-drop] step  1600 train 1.5193 val 1.6983 (383s) | MaxVio/layer [0.23, 0.16, 0.16, 0.16]
+[moe-drop] step  1700 train 1.4953 val 1.6767 (479s) | MaxVio/layer [0.21, 0.25, 0.13, 0.44]
+[moe-drop] step  1800 train 1.4795 val 1.6617 (574s) | MaxVio/layer [0.29, 0.08, 0.21, 0.16]
+[moe-drop] step  1900 train 1.4598 val 1.6620 (673s) | MaxVio/layer [0.21, 0.22, 0.2, 0.06]
+[moe-drop] step  2000 train 1.4402 val 1.6296 (768s) | MaxVio/layer [0.23, 0.16, 0.11, 0.19]
+[moe-drop] step  2100 train 1.4327 val 1.6252 (863s) | MaxVio/layer [0.31, 0.21, 0.12, 0.21]
+[moe-drop] step  2200 train 1.4188 val 1.6206 (958s) | MaxVio/layer [0.33, 0.38, 0.21, 0.18]
+{
+  "dense-continued": {
+    "train": 1.4431,
+    "val": 1.6393
+  },
+  "moe-copy": {
+    "train": 1.4254,
+    "val": 1.6295
+  },
+  "moe-drop": {
+    "train": 1.4188,
+    "val": 1.6206
+  },
+  "dense": {
+    "train": 1.5672,
+    "val": 1.7506
+  }
+}
